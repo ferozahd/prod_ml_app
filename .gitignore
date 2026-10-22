@@ -1,0 +1,94 @@
+
+# ==============================
+# Python Cache
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ==============================
+# MLflow Tracking Data
+# ==============================
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Generated Model Artifacts
+# ==============================
+# Uncomment if you don't want to track saved models
+# artifacts/
+# models/
+# *.pkl
+# *.joblib
+# *.h5
+# *.keras
+# *.pt
+# *.pth
+# *.onnx
+
+# ==============================
+# Experiment Outputs
+# ==============================
+outputs/
+logs/
+*.log
+lightning_logs/
+checkpoints/
+wandb/
+tensorboard/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Testing and Linting Cache
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Local Databases
+# ==============================
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# IDE Settings
+# ==============================
+.idea/
+.vscode/
+

@@ -1,0 +1,5 @@
+environment: production
+
+domains:
+  heart_disease:
+    data_path : ./data/heart-disease/heart.csv
